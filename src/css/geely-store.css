@@ -1,0 +1,736 @@
+.gregister {
+    display: inline-block !important;
+}
+
+.nav-search>ul>li {
+    float: left;
+    margin-right: 20px;
+}
+
+.nav-search>ul {
+    margin-top: 3px;
+}
+
+/* 商城搜索栏 */
+
+section {
+    width: 100%;
+}
+
+@media screen and (min-width:992px) {
+    .entity {
+        background: white;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .entity {
+        background: white;
+        height: 200px;
+    }
+}
+
+.store-nav {
+    background: #e7e7e7;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 5px 5px 2px #e7e7e7;
+    position: fixed;
+    top: 50px;
+    transition: all .1s ease;
+    z-index: 200;
+}
+
+.store-nav>div {
+    vertical-align: middle;
+}
+
+.store-nav .g-s-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.store-nav .g-s-search .gcenter {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+.store-nav .g-s-search .s-search-box {
+    width: 65%;
+    position: relative;
+}
+
+.store-nav .g-s-search .s-search-box input {
+    border: 1px;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+
+/* 联想搜索 */
+.searchBox{
+    width:100%;
+    position: absolute;
+    z-index: 999;
+}
+.searchBox>ul{
+    width:100%;
+}
+.searchBox>ul>li{
+    width:100%;
+    background:white;
+    border-top:1px solid #ccc;
+    line-height:3rem;
+    text-indent:1em;
+}
+.searchBox>ul>li:hover{
+    background:#ddd;
+}
+
+
+.store-nav .g-s-search .s-search-car {
+    width: 30%;
+    min-width: 90px;
+    position: relative;
+}
+
+.store-nav .g-s-search .s-search-car button {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 0px;
+    font-size: 0.7rem;
+    text-shadow: 0 0 0.05rem #AAA;
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.store-nav .g-s-search .s-search-enter {
+    width: 45px;
+    ;
+    height: 100%;
+}
+
+.store-nav .g-s-search .s-search-enter button {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: 0px;
+    border-left: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+}
+
+.g-phone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.store-nav img {
+    height: 60%;
+    margin-top: 12px;
+}
+
+.s-search-enter i {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.s-search-car i {
+    vertical-align: middle;
+}
+.search-extend {
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 110;
+    transition: all .5s ease;
+}
+
+.search-extend ul {
+    width: inherit;
+    border-radius: 5px;
+    background: white;
+    overflow: hidden;
+}
+
+.search-extend ul>li {
+    text-align: center;
+}
+
+.search-extend ul>li>a {
+    text-decoration: none;
+}
+
+.search-extend ul>li:hover {
+    background: #ccc;
+}
+
+.search-trigon:after {
+    content: "";
+    display: block;
+    padding: 0;
+    width: 0;
+    border-top: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid white;
+    border-right: 7px solid transparent;
+    margin: 0 auto;
+}
+
+/* 商店主体 */
+
+section .s-carousel {
+    width: 100%;
+    position: relative;
+}
+
+section .s-carousel .s-imglist {
+    width: 100%;
+}
+
+div.el-carousel__container img {
+    width: 100%;
+}
+
+/*轮播下车型扩展*/
+
+.car-model-list {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: rgba(255, 255, 255, 1);
+}
+
+.car-model-list .g-car-extend {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.g-car-extend .extend-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 12%;
+    box-sizing: border-box;
+}
+
+.shoucang>i {
+    font-size: 30px;
+}
+
+@media screen and (min-width:992px) {
+    .g-car-extend .extend-nav {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .g-car-extend .extend-nav {
+        width: 100%;
+    }
+}
+
+.g-car-extend .extend-nav .re-mai {
+    width: 20%;
+    text-align: center;
+    font-size: .21rem;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+@media screen and (max-width:991px) {
+    .g-car-extend .extend-nav .re-mai {
+        display: none;
+    }
+}
+
+.g-car-extend .extend-nav .re-mai>span>img {
+    margin-right: 10px;
+    width: 20%;
+}
+
+.g-car-extend .extend-nav .car-classify {
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+    margin: auto;
+}
+
+.extend-nav .car-classify>div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.extend-nav .car-classify>div>ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.extend-nav .car-classify ul>li {
+    width: 20%;
+}
+
+@media screen and (min-width:992px) {
+    .extend-nav .car-classify ul>li>img {
+        width: 30%;
+        transition: all .5s ease;
+    }
+    .extend-nav .car-classify ul>li>img:hover {
+        transform: scale(1.1)
+    }
+    .car-btn-cut {
+        display: block;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .extend-nav .car-classify ul>li>img {
+        width: 60%;
+    }
+    .car-btn-cut {
+        display: none;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .car-model-list {
+        display: block;
+    }
+}
+
+@media screen and (max-width:779px) {
+    .car-model-list {
+        display: none;
+    }
+}
+
+/* 车型切换 */
+
+.car-roll-list {
+    width: 100%;
+    height: 80%;
+}
+
+.car-roll-list .mold-cut {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-mold-list {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.car-mold-list>ul {
+    width: 160%;
+    height: 100%;
+    position: absolute;
+    transition: all .5s ease;
+    top: 0;
+}
+
+.car-mold-list>ul>li {
+    margin: 0 1rem;
+    height: 100%;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+}
+
+.car-mold-list>ul>li>p {
+    font-size: 0.6rem;
+}
+
+.car-mold-list>ul>li>div {
+    height: inherit;
+}
+
+.car-mold-list>ul>li>div>img {
+    height: 65%;
+}
+
+.prevP,
+.nextP {
+    width: 10%;
+    height: 100%;
+}
+
+.prevP {
+    text-align: left;
+    height: 100%;
+}
+
+.nextP {
+    text-align: right;
+    height: 100%;
+}
+
+.car-details {
+    height: 70%;
+    ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.car-details .houd {
+    width: 35%;
+}
+
+.car-details .car-lgImage {
+    width: 30rem;
+    height: 20rem;
+}
+
+.car-details .car-lgImage>img {
+    width: 100%;
+}
+
+.car-roll-list .car-details .huod {
+    width: 30rem;
+    height: 20rem;
+}
+
+.car-roll-list .car-details .huod>p {
+    font-size: 1rem;
+}
+
+.car-roll-list .car-details .huod>h5 {
+    font-weight: bold;
+}
+
+.car-roll-list .car-details .huod p.car-price {
+    font-size: 25px;
+    font-weight: bold;
+    color: #457ab0;
+}
+
+.car-roll-list .car-details .huod p.car-price>span {
+    font-size: 14px;
+}
+
+.car-btnlist {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.car-btnlist div.car-btn {
+    width: 30%;
+    height: 30px;
+    overflow: hidden;
+}
+
+.car-btnlist div.car-btn span{
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    height: 100%;
+    margin: auto auto;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+}
+
+.car-btnlist div span {
+    text-decoration: none;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.car-lgImage {
+    height: 60%;
+    text-align: center;
+}
+
+.car-lgImage>img {
+    width: 70%;
+}
+
+.prevP,
+.nextP {
+    vertical-align: middle;
+    z-index: 99;
+}
+
+.shoucang>a>i {
+    font-size: 2rem;
+}
+
+.prevP>i,
+.nextP>i {
+    font-size: 4rem;
+    display: inline-block;
+    height: 50%;
+}
+
+.car-btn-bg1>span {
+    background: #c79c71;
+}
+
+.car-btn-bg2>span {
+    background-color: #4ca0e0;
+    background-image: linear-gradient(180deg, #4fa0ff, transparent 50%, #217ec3)
+}
+
+@media screen and (min-width:1181px) {
+    .car-roll-list .car-details .huod p.car-price {
+        margin: 20px 20px;
+    }
+    .car-details {
+        margin-top: 30px;
+    }
+    .car-roll-list .car-details .huod>p {
+        margin: 10px 20px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .car-roll-list .car-details .huod p.car-price {
+        margin: 0 20px;
+    }
+    .car-details {
+        margin-top: 0;
+    }
+    .car-roll-list .car-details .huod>p {
+        margin: 0 20px;
+    }
+}
+
+.car-btn-cut {
+    width: 3rem;
+    height: 3rem;
+    background: #0c6bb0;
+    text-align: center;
+    left: calc(50% - 1.5rem);
+    bottom: -3rem;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 99;
+}
+
+.car-btn-cut>span {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: white;
+    
+}
+
+.disabled {
+    transform: rotate(45deg);
+    background: #c8a27b;
+    line-height: 3rem;
+}
+
+/* 汽车列表  */
+
+.recommendList {
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.recommendList .carItem {
+    margin-top: 1.5rem;
+}
+
+.recommendList .carItem .itemImage:hover {
+    box-shadow: 0 0 20px 3px #0c6bb0;
+}
+
+.recommendList .item-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.itemImage img {
+    width: 100%;
+}
+
+.itemfirst-price {
+    color: #0c6bb0;
+}
+
+.itemfirst-price span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.item-referral .item-text {
+    font-size: 1rem;
+}
+
+.item-referral .item-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-referral .item-btn div i.iconfont {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.item-referral .item-btn div>span {
+    font-size: 1rem;
+    display: inline-block;
+    color: white;
+    line-height: 2rem;
+    background-color: #4ca0e0;
+    background-image: linear-gradient(180deg, #4fa0ff, transparent 50%, #217ec3);
+    padding: 0.1rem 1.7rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* 热卖车型 */
+.remaiCar {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+.GDiscountsCar{
+    display:flex;
+    justify-content:space-around;
+    width:90%;
+    margin:1.5rem auto;
+}
+.rmName{
+    width:100%;
+    background:rgba(0,0,0,.5);
+    position: absolute;
+    bottom: -10rem;
+    transition:all .5s ease;
+}
+@media screen and (min-width:992px){
+    .rmName{
+        display: block;
+    }
+}
+@media screen and (max-width:991px){
+    .rmName{
+        display: none;
+    }
+}
+.rmName p{
+    font-size:1.2rem;
+    color:white;
+}
+.rmName p span{
+    font-size:0.7rem
+}
+.rmPrice{
+    display: flex;
+    justify-content:space-between;
+    margin-top:1rem;
+}
+.lgCarImg{
+    width:40%;
+    height:100%;;
+    position: relative;
+}
+.carImage{
+    width:100%;
+     position: relative;
+     overflow: hidden;
+     cursor:pointer;
+}
+.carImage:hover>div.rmName{
+    bottom:0;
+}
+
+.carImage>img{
+    width:100%;
+}
+div.carsmimg>img{
+    width:112%;
+    height:100%;
+}
+.sCarImg{
+    width:48%; 
+}
+
+.SmCarImg{
+    width:50%;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left:-5rem; 
+}
+
+
+
+
+
+
+/* 底部样式 */
+.bottomBanner {
+    width: 100%;
+}
+
+.bottomBanner>span>img {
+    width: 100%;
+    cursor:pointer;
+}
+
+.A-car-service {
+    width: 100%;
+    margin: 3rem auto;
+}
+
+.A-car-service>ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.A-car-service>ul>li {
+    display: flex;
+    width: 20rem;
+}
+
+.GCtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.serviceImage {
+    margin-right: .7rem;
+    width: 10rem;
+}
+
+.serviceJS {
+    width: 10rem;
+    height: 10rem;
+}
+
+.serviceJS p {
+    width: 10rem;
+}
+
+

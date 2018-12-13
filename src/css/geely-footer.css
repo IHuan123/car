@@ -1,0 +1,97 @@
+/*footer*/
+footer{
+    width:100%;
+    background:#055a94;
+    z-index:10000;
+}
+footer:before{
+    content:'';
+    display:table;
+}
+.footer{
+    width:80%;
+    margin:20px auto 0;
+}
+.classify>ul{
+    display:flex;
+    justify-content: space-around;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+.copyright{
+    color:white;
+    padding:40px 0;
+}
+.copyright>ul{
+    display:flex;
+    justify-content: space-around;
+}
+.footer-option>li>a{
+    font-size:14px;
+}
+.copyright a{
+    font-size:14px;
+}
+.classify div{
+    color:white;
+}
+@media screen and (min-width:992px){
+    .footer-option{
+        display: block;
+    }
+    .footer-option>li:last-child{
+        display: none;
+    }
+    .footer-option>li>a{
+        font-size:14px;
+    }
+    .copyright a{
+        font-size:14px;
+    }
+    .classify div{
+        color:white;
+        font-size:14px;
+    }
+}
+@media screen and (max-width:991px){
+    footer{
+        position:relative;
+    }
+    .footer-option{
+        display: none;
+        position: absolute;
+        width:100%;
+        background:rgba(0,0,0,.5);
+        left:0;
+        bottom:0;
+    }
+    .footer-option>li{
+        margin:10px 0;
+        color:white;
+
+    }
+    .footer-option>li:hover{
+        background:#aaa;
+    }
+    .footer-option>li>a{
+        font-size:20px;
+    }
+    .footer-option>li:last-child{
+        display: block;
+    }
+    .footer-up{
+        cursor:pointer;
+    }
+    .footer-option>li>a{
+        font-size:10px;
+    }
+    .copyright a{
+        font-size:10px;
+    }
+    .classify div{
+        color:white;
+        font-size:10px;
+    }
+}

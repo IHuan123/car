@@ -1,0 +1,425 @@
+/* .header .vehicle_mode div li.car-list:hover>.header .vehicle_mode div li.car-list .car-img li .lg-car{
+    display:block;
+} */
+.detailsfill{
+    height:50px;
+}
+.carDetails{
+    height:95vh;
+    width:100%;
+    background:#e4e5e5;
+    display: flex;
+    justify-content: space-between;
+}
+.carDetails .cartitle p{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+
+.Detailsleft{
+    width:65%;
+    height:100%;
+    position: relative;
+}
+.Detailsright{
+    width:35%;
+    height:100%;
+    background:white;
+    position: relative;
+}
+/* 汽车详情左边部分 */
+.Detailsleft .carLgimg{
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+.Detailsleft .carLgimg img{
+    width:75%;
+}
+
+.carBtn .btngroup .btnItem{
+    width:3.5rem;
+    border-radius: 5px;
+    background:white;
+    text-align:center;
+    margin-top:10px;
+    cursor: pointer;
+}
+div.carBtn>ul.btngroup .active{
+    background:#5585b6;
+    color:white;
+}
+div.carBtn>ul.btngroup .hide{
+    background:white;
+    color:black;
+}
+.carBtn .btngroup .btnItem i{
+    vertical-align:middle;
+    margin:10px 0;
+    font-size:2rem;
+}
+.carBtn{
+    position: absolute;
+    top:20px;
+    left:-5rem;
+}
+
+
+/* 汽车详情右边部分 */
+.carCut{
+    width:100%;
+    height:100%;
+}
+.optionC{
+    display: flex;
+    height: 100%;
+}
+.carstyle{
+    margin:0 10px;
+    width:15%;
+    height:100%;
+    padding-top:20px;
+    overflow: hidden;
+}
+.carstyle>ul{
+    height:75%;
+    background:#eee;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+.carstyle>ul>li{
+    cursor: pointer;
+}
+.carstyle ul li p{
+    text-align:center;
+}
+.caroption{
+    text-align: center;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.carcolor{
+    position: relative;
+    width:65%;
+    height:3rem;  
+    margin:2rem auto;
+}
+.carcolor>img{
+    position: absolute;
+    width:100%;
+}
+.displacement{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top:2rem;
+}
+
+
+.carcon{
+    width:85%;
+    height:80vh;
+    background:white;
+    border-left:1px solid #aaa;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+.carcon .carConbtn{
+    width:85%;
+    margin:1rem auto;
+    font-size:1.3rem;
+    font-weight:bold;
+    text-align:center;
+    background:#ccc;
+    border-radius:4px;
+    cursor: pointer;
+}
+.carcon .carConbtn>span{
+    display:inline-block;
+    margin:3rem 0;
+}
+div.carcon div.carActive{
+    background:#5585b6;
+    color:white;
+}
+
+/* 价格  购买 */
+.configurationBox{
+    font-size:1rem;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background:white;
+    width:100%;
+    box-shadow:0 -5px 20px -5px #ddd;
+}
+.configuration-information{
+    height:2.5rem;
+}
+.configuration-information>ul{
+    display: flex;
+    justify-content: space-around;
+    height:100%;
+    width:100%;
+    align-items:center;
+}
+.configuration-information>ul>li:first-child img{
+    height:1rem;
+}
+.marketing-information{
+    width:100%;
+    height:2.5rem;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    border-top:1px solid #aaa;
+}
+.marketing-information .sales{
+    width:60%;
+}
+.marketing-information .sales ul{
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+}
+.marketing-information .sales ul li i{
+    font-weight: bold;
+}
+.buy{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:5rem;
+}
+.earnest{
+    width:50%;
+    height:100%;
+    background:#457ab0;
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+}
+.earnest>p{
+    color:white;
+    font-size:1.3rem;
+
+}
+.earnest>p:last-child{
+    font-size:1.7rem;
+    font-weight: bold;
+}
+.order{
+    width:50%;
+    height:100%;
+    display: flex;
+    background:#135086;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    font-size:1.7rem;
+    font-weight:700;
+    color:white;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden; 
+    transition: all .5s ease; 
+}
+.now-buy{
+    width:50%;
+    height:100%;
+    display: flex;
+    background:#f50;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    font-size:1.7rem;
+    font-weight:700;
+    color:white;
+    cursor: pointer;  
+    overflow: hidden;  
+    white-space: nowrap;
+    transition: all .5s ease; 
+}
+div.detailsImg{
+    width:100%;
+    margin-top:3rem;
+}
+div.detailsImg>figure{
+    width:65%;
+    margin:0 auto;
+}
+div.detailsImg>figure>img{
+    width:100%;
+}
+
+
+/* 咨询帮助 */
+.consult{
+    width:12%;
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom:0;
+    right:0;
+    transition:all .3s ease;
+}
+.consult .zx{
+    width:35%;
+    cursor: pointer;
+}
+.consult .goon{
+    width:65%;
+    cursor: pointer;
+}
+.consult .zx img,.consult .goon img{
+    width:100%;
+    height:100%;
+}
+div.carBtn>ul.btngroup .shoucang{
+    background:rgb(245, 149, 24);
+    color:white;
+}
+
+
+
+/* 选择车型 */
+.carSelect{
+    width:100%;
+    height:100%;
+}
+.carSelect .carOption{
+    margin-top:30px;
+    width:100%;
+}
+.carSelect .carOption .Ititle{
+    text-align:center;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.Caritem{
+    width:70%;
+    text-align: center;
+    margin:1rem auto;
+    background:#ccc;
+}
+.carSelect .carOption .Caritem>p{
+    padding:.5rem 0;
+}
+.pitchOn{
+    background:#457ab0;
+
+}
+.pitchOn>p{
+    color:white;
+}
+
+
+/* 车辆服务模块切换 */
+/* .optionC{
+    display:none;
+}
+.carSelect{
+    display:none;
+}
+.trim{
+    display:none;
+}
+.financial{
+    display:none;
+} */
+.imgHidden{
+    display:none;
+}
+.imgShow{
+    display:inline-block;
+}
+.carcolor:hover>img{
+    display:inline-block;
+}
+.trimTitle{
+    width:100%;
+    text-align:center;
+    margin:2rem auto;
+}
+.trimTitle>p{
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.trimColor .trimImg{
+    width:3rem;
+    height:3rem;
+    position: relative;
+}
+.trimColor .trimImg>img{
+    width:100%;
+    position: absolute;
+}
+.trimColor{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.trimColor>div{
+    margin:10px 0.5rem;
+}
+
+.trimLgImg>div.trimLgBox{
+    width:90%;
+    margin:0 auto;
+    position: relative;
+}
+.trimLgImg>div.trimLgBox>img{
+    width:100%;
+}
+.trimLgImg>div.trimLgBox>.trimLgDesc{
+    width:100%;
+    background:rgba(0,0,0,.5);
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.trimLgImg>div.trimLgBox>.trimLgDesc>p{
+    color:white;
+    font-size:1.5rem;
+    padding:5px 0;
+}
+.trimLgImg>div.trimLgBox>.trimLgDesc>p:first-child{
+    font-weight: bold;
+}
+
+.financial{
+    width: 100%;
+    height: 100%;
+}
+.financial .financialTitle{
+    width: 100%;
+}
+.financial .financialTitle p{
+    text-align:center;
+    font-size:1.5rem;
+    font-weight:bold;
+    margin:5px auto;
+}
+.finOption{
+    width:100%;
+}
+.finOption .financialBtn{
+    width:70%;
+
+    margin: 10px auto;
+}
+.finOption .financialBtn p{
+    text-align: center;
+    padding:10px 0;
+    font-size:1.2rem;
+    background:#ccc;
+}
+.finOption .financialBtn .selected{
+    background:#457ab0;
+    color:white;
+}

@@ -1,0 +1,88 @@
+.fill{
+    width:100%;
+    height:50px;
+}
+.corder{
+    width:100%;
+    margin:5rem auto;
+}
+.checkBox{
+    width:80%;
+    margin: 0 auto;
+    border:1px solid #ccc;
+}
+.oheader{
+    width:100%;
+}
+.itemBlcok{
+    background:#ccc;
+    display:flex;
+}
+.itemBlcok>p{
+    margin-right:3rem;
+    font-size:1.2rem;
+    font-weight: 600;
+    padding:.4rem;
+}
+.obody{
+    width:100%;
+    margin-bottom:3rem;
+}
+.otitle{
+    width:100%;
+    border-bottom:1px solid #aaa;
+    margin-top:3rem;
+}
+.otitle p{
+    padding:.5rem;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.orderlist>div{
+    margin-top:1rem;
+}
+.orderlist>div>span{
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left:2rem;
+}
+.caroder{
+    width:100%;
+    border:1px solid #ccc;
+    border-right:0;
+    border-left:0;
+}
+.caroder tbody{
+    text-align:center;
+}
+.caroder div.cardeta{
+    text-align:center;
+    height:200px;
+}
+.caroder .cardeta img{
+    height:80%;
+}
+.caroder thead{
+    background:#ccc;
+}
+.caroder th{
+   border:1px solid #ccc; 
+   
+}
+.caroder td{
+    border:1px solid #ccc; 
+}
+.gbuybtn{
+    width:80%;
+    margin:0 auto;
+}
+.gbuybtn span{
+    display:inline-block;
+    width:100%;
+    line-height: 2rem;
+    background-color: #2584c8;
+    background-image: linear-gradient(0deg,hsla(0,0%,100%,.2),transparent 50%,hsla(0,0%,100%,.2));
+    color:white;
+    border-radius: 15px;
+    cursor: pointer;
+}

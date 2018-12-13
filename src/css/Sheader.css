@@ -1,0 +1,170 @@
+body{
+    margin:0;
+    padding:0;
+}
+ul,a,p,h2,h4{
+    list-style:none;
+    text-decoration:none;
+    padding:0;
+    margin:0;
+}
+a{
+    color:black;
+}
+header{
+    width:100%;
+    background:url("../img/header-bg.jpg") no-repeat;
+    background-size:cover;
+}
+header>div,nav>div,section>div.lunbo{
+    max-width:70%;
+    min-width:800px;
+    margin:0 auto;
+}
+header>div{
+    display:flex;
+    justify-content:space-between;
+}
+header>div .h-logo{
+    display:flex;
+    justify-content:space-between;
+}
+header>div .h-logo a h2{
+    margin-left:20px;
+    font-family: Times, TimesNR, 'New Century Schoolbook',
+    Georgia, 'New York', serif;
+    letter-spacing:10px;
+}
+header>div .h-logo a h3{
+    margin:10px 0 0 20px;
+    font-family: Times, TimesNR, 'New Century Schoolbook',
+    Georgia, 'New York', serif;
+    color: rgba(53, 65, 98, 0.36);
+}
+header>div .h-logo a{
+    display:inline-block;
+    box-sizing:border-box;
+}
+header>div .h-logo a>div{
+    margin-top:20px;
+}
+header>div .Lg-school>ul{
+    display:flex;
+    justify-content:space-around;
+}
+header>div .Lg-school>ul li{
+    margin-left:20px;
+    line-height:104px;
+}
+header>div .Lg-school>ul li a{
+    color:black;
+}
+nav{
+    width:100%;
+    background-color:white;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.13) 0, rgba(0, 0, 0, 0.24) 20%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.13) 100%)
+}
+nav div>ul.nav-option{
+    display:flex;
+    justify-content:space-around;
+    line-height:40px;
+}
+nav div>ul.nav-option li.on{
+    width:82px;
+    text-align:center;
+}
+nav div>ul.nav-option .on:hover{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.62) 0, rgba(0, 0, 0, 0.33) 50%, rgba(0, 0, 0, 0.61) 100%)
+}
+nav .nav-z>div .nav-option .nav-menu{
+    position:absolute;
+    background-color:rgba(0,0,0,0.5);
+    width:150px;
+    display:none;
+    margin-left:-35px;
+}
+nav .nav-z>div .nav-option .nav-menu li:hover{
+    background:black;
+}
+nav .nav-z>div .nav-option .nav-menu li,nav .nav-z>div .nav-option .nav-menu li a{
+    transition:all 0.3s ease;
+    text-align:center;
+    color:white;
+}
+/*主体轮播*/
+section{
+    width:100%;
+    background:white;
+}
+section .lunbo .lunbo-shell{
+    width:100%;
+}
+section .lunbo .lunbo-shell .lunbo-img{
+    position:relative;
+    height:600px;
+    width:100%;
+    overflow:hidden;
+}
+section .lunbo .lunbo-shell .lunbo-img div{
+    position:absolute;
+    opacity:0;
+    transition:all .5s linear;
+
+}
+
+section .lunbo .lunbo-shell .lunbo-img div a img{
+    width:1344px;
+    height:600px;
+}
+section .lunbo .lunbo-shell .lunbo-img div a p{
+    position:absolute;
+    width:100%;
+    background:rgba(0,0,0,0.7);
+    left:0;
+    bottom:0;
+    color:white;
+    padding:10px 0 10px;
+    font-size:25px;
+}
+section .lunbo .lunbo-shell .lunbo-img div.show{
+    opacity:1;
+}
+/*轮播按钮*/
+section .lunbo{
+    position:relative;
+}
+section .lunbo .lunbo-option .btn>ul li{
+    background:rgba(0,0,0,.8);
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    width:50px;
+    height:100px;
+    line-height:100px;
+    position:absolute;
+    top:40%;
+}
+section .lunbo .lunbo-option .btn>ul li.last{
+    left:0;
+}
+section .lunbo .lunbo-option .btn>ul li.next{
+    right:0;
+}
+/*img-index*/
+section .lunbo .img-index{
+    position:absolute;
+    bottom:70px;
+
+}
+section .lunbo .img-index ul:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+section .lunbo .img-index ul li{
+    width:50px;
+    height:10px;
+    background: rgba(0, 0, 0, 0.27);
+    float:left;
+    margin:0 10px;
+}

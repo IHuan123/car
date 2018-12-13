@@ -1,0 +1,9 @@
+.collect{
+    width:100%;
+
+}
+.collectList{
+    width:90%;
+    margin:1rem auto;
+    border:1px solid #ccc;
+}

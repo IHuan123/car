@@ -1,0 +1,150 @@
+.confirm-an-order{
+    width:100%;
+}
+.fill{
+    width:100%;
+    height:50px;
+}
+.buyBox{
+    margin-top:2rem;
+    display:flex;
+    justify-content:space-around;
+}
+.buyright{
+    width:55%;
+    padding:1rem;
+}
+.buyleft h2,.buyright h2{
+    margin:2rem 0;
+    font-weight: 900;
+}
+.buyleft{
+    width:30%;
+    padding:1rem;
+}
+.buyOption{
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+}
+.buyOption span{
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.buyBtn{
+    width:60%;
+}
+.buyBtn input{
+    width:100%;
+    max-width:215px;
+    border-radius:5px;
+    border:1px solid #ddd;
+    height:32px;
+}
+.buytitle{
+    width:30%;
+}
+.radioBtn{
+    display:flex;
+    align-items:center;
+}
+.radioBtn input{
+    width:20px;
+}
+.radioBtn label{
+    margin:0 1rem;
+}
+.buyText textarea{
+    width:100%;
+    max-width:215px;
+}
+.buyCheckbox input{
+    width:5%;
+}
+.cascader{
+    margin-bottom:1.5rem;
+}
+.Orderdetail{
+    width:100%;
+    margin-top:2rem;
+}
+.Orderdetail table{
+    width:90%;
+    margin:0 auto;
+    box-sizing: border-box;
+    
+}
+.Orderdetail table thead,.Orderdetail table tbody{
+    text-align:center;
+    border:1px solid #ccc;
+}
+.Orderdetail table img{
+    width:100%;
+}
+.Orderdetail table thead th{
+    background: #cfe0f0;
+    padding:1rem;
+}
+.Orderdetail table tbody td{
+    border:1px solid #ccc;
+}
+.Orderdetail .tfoot{
+    width:90%;
+    background:#f0f0f0;;
+    margin:0 auto;
+    display:flex;
+    justify-content: flex-end;
+    padding:1rem;
+    font-size:1.2rem;
+    border:1px solid #ccc;
+    border-top:0;
+}
+.carImg{
+    width:40%;
+}
+.orderT{
+    width:15%;
+}
+.zone{
+    width:0;
+    height:80vh;
+    border-left:1px solid #ccc;
+}
+.enterBtn{
+    width:100%;
+    display: flex;
+    justify-content:flex-end;
+    margin:0 1rem 2rem;
+}
+.enterBtn>div{
+    width:30%;
+    display:flex;
+    margin-right:2rem;
+}
+.enterBtn>div .btn{
+    width:50%;
+    padding:2rem 0;
+    text-align: center;
+    font-size:1.5rem;
+    font-weight:bold;
+    color:white;
+
+
+}
+.enterBtn>div .btn:first-child{
+    background:#457ab0;
+    border-radius: 0;
+}
+.enterBtn>div .btn:last-child{
+    background:#135086;
+    border-radius: 0;
+}
+.carD>p{
+    width:20%;
+    font-size:1.3rem;
+    font-weight:bold;
+}
+.carD>div{
+    display:flex;
+    justify-content: space-between;
+}

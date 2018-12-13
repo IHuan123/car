@@ -1,0 +1,210 @@
+.fill{
+    height:50px;
+}
+.personal{
+    width:100%;
+}
+.perBox{
+    width:100%;
+}
+/* .percontent{
+    width:90%;
+    margin:30px auto 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.perleft{
+    width:18%;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.perright{
+    width:80%;
+} */
+@media screen and (min-width:992px){
+    .percontent{
+        width:90%;
+        margin:30px auto 20px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .perleft{
+        width:18%;
+        border:1px solid #ccc;
+        border-radius:5px;
+    }
+    .perright{
+        width:80%;
+    }  
+    .head-portrait{
+        width:100%;
+    }
+    .jfrz{
+        width:100%;
+        margin-top:50px;
+    }
+    .gintegral{
+        width:100%;
+        margin-top:50px;
+    }
+}
+@media screen and (max-width:991px){
+    .percontent{
+        width:90%;
+        margin:30px auto 20px;
+    }
+    .perleft{
+        width:90%;
+        border:1px solid #ccc;
+        border-radius:5px;
+        margin:5px auto;
+        display:flex;
+        justify-content:space-around;
+    }
+    .perright{
+        width:90%;
+        margin:5px auto;
+    }    
+    .head-portrait{
+        width:60%;
+    }
+    .jfrz{
+        width:30%;
+    }
+    .gintegral{
+        width:100%;
+        margin-top:0;
+    }
+}
+/* 头像部分 */
+/* .head-portrait{
+    width:100%;
+} */
+.head-portrait .photo{
+    width:30%;
+    margin:20px auto;
+    position:relative;
+}
+.head-portrait .photo>span:first-child>img{
+    width:100%;
+}
+.head-portrait .photo>span:last-child>img{
+    width:30%;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.nickname{
+    text-align:center;
+    font-size:1.2rem;
+}
+.gcollect-spoor{
+    width:45%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+.gcollect-spoor div p{
+    text-align:center;
+}
+.gcollect-spoor>span{
+    border-left:1px solid #aaa;
+}
+
+/* 积分 */
+/* .jfrz{
+    width:100%;
+    margin-top:50px;
+} */
+/* .gintegral{
+    width:100%;
+    margin-top:50px;
+} */
+.gintop{
+    display:flex;
+    justify-content:space-around;
+    width:90%;
+    margin:0 auto;
+    align-items:center;
+}
+.gintop>span{
+    width:30%;
+    border-top:1px solid #aaa;
+    vertical-align:middle;
+}
+/* 车主认证部分 */
+.gintegral .ginmiddle{
+    width:90%;
+    display:flex;
+    justify-content:space-around;
+    margin:5px auto;
+}
+.gintegral .ginmiddle .glogosm{
+    display: flex;
+    align-items:center;
+}
+.gintegral .ginmiddle .glogosm span{
+    font-size:1.2rem;
+    margin:5px;
+}
+.gintegral>p{
+    text-align:center;
+}
+.carbg{
+    width:100%;
+    text-align:center;
+}
+.carbg img{
+    width:90%;
+}
+.listBtn{
+    width:100%;
+    margin:0 auto;
+    border-radius:5px;
+    display:flex;
+    justify-content:space-between;
+}
+.listBtn>li{
+    margin-top:10px;
+}
+.listBtn>li>div{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    text-align:center;
+    cursor: pointer;
+}
+.listBtn>li>div>img{
+    width:100%;
+}
+.listBtn>li:last-child>div{
+    background-image:linear-gradient(45deg,rgb(144, 201, 241) 0%,rgb(63, 100, 255) 100%);
+    width:100%;
+    height:100%;
+    border-radius:10px;
+}
+.listBtn>li:last-child>div>p{
+    font-size:1.5rem;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    top:20%;
+    width:100%;
+    text-align:center;
+}
+.listBtn>li>div>span{
+    position:absolute;
+    top:70%;
+    width:100%;
+    margin:0 auto;
+    left:0;
+    font-size:1.2rem;
+    font-weight: bold;
+    color:white;
+}
+
+/* 内容切换区域 */
+.ucontent{
+    width:100%;
+    margin-top:2rem;
+}
