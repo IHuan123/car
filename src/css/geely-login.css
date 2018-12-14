@@ -39,6 +39,7 @@ canvas{
 }
 .loginBox input{
     height:50px;
+    width:100%;
     outline:none;
     border:1px solid #cdcdcd;
     border-radius:0.4rem;
@@ -61,6 +62,7 @@ canvas{
     color:white;
     font-weight: bold;
     outline: none;
+    width:100%;
 }
 
 .loginWay{

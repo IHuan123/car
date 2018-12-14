@@ -100,6 +100,6 @@ export default {
     // }
 }
 </script>
-<style>
-    @import "../../css/geely-login.css"
+<style scoped>
+    @import "../../css/geely-login.css";
 </style>

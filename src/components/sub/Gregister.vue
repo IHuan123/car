@@ -163,6 +163,6 @@ export default {
     }
 }
 </script>
-<style>
-    @import "../../css/geely-register.css"
+<style scoped>
+    @import "../../css/geely-register.css";
 </style>
