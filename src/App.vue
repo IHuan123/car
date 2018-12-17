@@ -377,10 +377,6 @@ export default {
             }
         },
         getpandect(){
-            // this.$http.get("storeindex/extendlist").then(res=>{
-            //     this.pandect=res.body;
-            //     console.log(this.pandect)
-            // })
             this.axios.get("storeindex/extendlist").then(res=>{
                 this.pandect=res.data;
                 console.log(this.pandect)                
@@ -389,49 +385,31 @@ export default {
         getcardesc(id){//获得当前车辆eid并跳转
             this.eid=id;
             this.$router.push("/cardetails?eid="+id);
-            console.log(this.eid)
             this.$store.commit("geteid",id);
-        },
-        navcut(){
-            
         },
         stroe(){
             this.$router.push("/")
-            // location.reload()
         },
         loggingStatus(){
                 this.axios.get("glogin/islogin").then(res=>{
                     this.ok=res.data.ok;
                     this.uname=res.data.uname;
-                    this.$store.commit("getname",this.uname)
                     console.log(this.ok)
                     if(this.ok == -1){
                         this.lstatu=true
-                        console.log(111)
                     }else if(this.ok == 1){
                         this.lstatu=false
-                        console.log(222)
                     }                        
                 })
         },
-        // nameshow(){
-        //     console.log(123456)
-        //     this.$http.get("glogin/islogin").then(res=>{
-
-        //         if(this.ok == -1){
-        //             this.lstatu=true
-        //              console.log(111)
-        //         }else if(this.ok == 1){
-        //             this.lstatu=false
-        //             console.log(222)
-        //         }
-        //     })
-
-        // },
         exit(){
             this.axios.get("glogin/signout").then(res=>{
                 this.lstatu=true;
-                console.log(111)
+                this.$router.push("/")
+                this.axios.get("glogin/islogin").then(res=>{
+                    this.ok=res.data.ok
+                    this.$store.commit("getok",res.data.ok)
+                })
             })
         }
     },
@@ -455,8 +433,6 @@ export default {
         window.addEventListener("scroll",this.handleScroll);
         window.addEventListener("eid",this.stroe)
         this.getpandect()
-        this.loggingStatus()
-        // this.nameshow()  
         },
 }
 </script>

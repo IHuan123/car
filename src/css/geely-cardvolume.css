@@ -1,34 +1,42 @@
-.el-header, .el-footer {
-    background-color: #0299ea;;
-    color: white;
-    text-align: center;
-    line-height: 60px;
-    font-size:1.3rem;
-  }
-  
-  .el-aside {
-    background-color: #D3DCE6;
-    color: #333;
-    text-align: center;
-    line-height: 200px;
-  }
-  
-  .el-main {
-    background-color: #E9EEF3;
-    color: #333;
-    text-align: center;
-    line-height: 160px;
-  }
-  
-  body > .el-container {
-    margin-bottom: 40px;
-  }
-  
-  .el-container:nth-child(5) .el-aside,
-  .el-container:nth-child(6) .el-aside {
-    line-height: 260px;
-  }
-  
-  .el-container:nth-child(7) .el-aside {
-    line-height: 320px;
-  }
+.volume{
+  width:100%;
+  background:rgb(238, 238, 238);
+}
+.car-card-header{
+  width:100%;
+  background:rgb(0, 174, 255);
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.car-card-header div{
+  width:33%;
+  height:40px;
+  font-size:1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.car-card-header div span{
+  line-height:40px;
+  text-align: center;
+  color:white;
+}
+.car-card{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  border:1px solid rgb(211, 211, 211);
+  margin-top:0.5rem;
+}
+.car-card div{
+  width:33%;
+  height:40px;
+  font-size:1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.car-card div span{
+  line-height:40px;
+
+}

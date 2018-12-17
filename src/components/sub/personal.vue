@@ -90,13 +90,21 @@
                                 <div>
                                     <img src="../../assets/img/BuydetailsImg/perImg/wdpj.png">
                                     <span>我的评价</span>
+                                    <div class="wwc">
+                                        <span>敬请期待</span>
+                                    </div>
                                 </div>
+
                             </li>
                             <li class="col-md-2 col-sm-4 col-4">
                                 <div>
                                     <img src="../../assets/img/BuydetailsImg/perImg/wdby.png">
                                     <span>我的保养</span>
+                                    <div class="wwc">
+                                        <span>敬请期待</span>
+                                    </div>
                                 </div>
+
                             </li>
                             <li class="col-md-2 col-sm-4 col-4">
                                 <div>    

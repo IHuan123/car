@@ -1,22 +1,19 @@
 <template>
     <div class="reservation">
-        <h1>我的收藏</h1>
-        <h1>页面正在开发中</h1>
         <div class="collect">
-            <ul>
-                <li class="collectList">
-                    <div>
-                        <div><img src="" alt=""></div>
-                        <div>
-                            <p></p>
-                            <p></p>
-                        </div>
-                        <div class="time">
-                            <p></p>
-                        </div>
+            <div class="collectList">
+                <div class="carbox col-12 col-md-4 m-0 p-0">
+                    <div class="carimg"><img src="../../assets/img/binyue.png" alt=""></div>
+                    <div class="ctitle">
+                        <p>博越</p>
+                        <p>￥19888起</p>
                     </div>
-                </li>
-            </ul>
+                    <div class="time">
+                        <p>查看详情</p>
+                    </div>
+                    <span class="remove"><i class="iconfont icon-guanbi"></i></span>
+                </div>
+            </div>
         </div>
     </div>
 </template>

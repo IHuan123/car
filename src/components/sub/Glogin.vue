@@ -60,7 +60,6 @@ export default {
                     console.log(res.data.uname)
                     window.sessionStorage;
                     sessionStorage.setItem("uname",res.data.uname)
-                    // alert(this.msg.msg)
                     if(res.data.code==1){
                         this.$message({
                             message:this.msg.msg,
@@ -71,8 +70,7 @@ export default {
                     }
 
                     if(res.data.code==1){
-                        // this.$router.push("/")
-                        this.$router.go(-1)
+                        this.$router.push("/")
                     }else if(res.data.code==-1){
                         return
                     }
@@ -89,15 +87,8 @@ export default {
                 this.$message.error({message:"账号或密码不能为空"})
                 return
             }
-
         },
-        // open() {
-        //     this.$message('这是一条消息提示');
-        // },
     },
-    // components:{
-    //     "message-box":messageBox
-    // }
 }
 </script>
 <style scoped>

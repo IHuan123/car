@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="fill"></div>
-        <h1>页面开发中</h1>
+        <h1></h1>
     </div>
 </template>
 <script>

@@ -7,20 +7,6 @@
 .perBox{
     width:100%;
 }
-/* .percontent{
-    width:90%;
-    margin:30px auto 20px;
-    display:flex;
-    justify-content: space-between;
-}
-.perleft{
-    width:18%;
-    border:1px solid #ccc;
-    border-radius:5px;
-}
-.perright{
-    width:80%;
-} */
 @media screen and (min-width:992px){
     .percontent{
         width:90%;
@@ -112,14 +98,6 @@
 }
 
 /* 积分 */
-/* .jfrz{
-    width:100%;
-    margin-top:50px;
-} */
-/* .gintegral{
-    width:100%;
-    margin-top:50px;
-} */
 .gintop{
     display:flex;
     justify-content:space-around;
@@ -207,4 +185,18 @@
 .ucontent{
     width:100%;
     margin-top:2rem;
+}
+.wwc{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius:10px;
+    color:white;
+    font-size:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
 }
